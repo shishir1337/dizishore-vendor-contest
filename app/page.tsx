@@ -458,8 +458,9 @@ export default function CampaignPage() {
                 imposed by their central bank, DiziShore is not responsible.
               </li>
               <li>
-                DiziShore employees, as well as their friends and family
-                members, are not eligible to participate in this contest.
+                DiziShore employees, individuals associated with DiziShore, and
+                their friends and family members are not eligible to participate
+                in this contest.
               </li>
               <li>
                 DiziShore reserves the right to postpone or cancel the contest
