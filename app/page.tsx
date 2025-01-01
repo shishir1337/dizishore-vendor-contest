@@ -18,6 +18,7 @@ import {
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { Header } from "@/components/header";
 
 export default function CampaignPage() {
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
@@ -28,6 +29,7 @@ export default function CampaignPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#E6E6E6] to-white">
+      <Header />
       {/* Hero Section */}
       <section className="bg-[#053d80] text-white py-12 sm:py-16 md:py-24 lg:py-32">
         <div className="container mx-auto px-4">
