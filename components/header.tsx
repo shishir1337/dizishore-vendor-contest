@@ -22,11 +22,6 @@ export function Header() {
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-2">
-            <Link href="https://dizishore.com/sell-with-dizishore/" passHref>
-              <Button className="hidden lg:flex bg-[#0274be] text-white hover:bg-[#053d80] transition-colors">
-                Sell on DiziShore
-              </Button>
-            </Link>
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className="lg:hidden bg-white">
@@ -43,12 +38,6 @@ export function Header() {
                       width={130}
                       height={32}
                     />
-                  </Link>
-                  <Link
-                    href="https://dizishore.com/sell-with-dizishore/"
-                    className="block py-2 text-lg font-medium hover:text-primary transition-colors"
-                  >
-                    Sell on DiziShore
                   </Link>
                 </nav>
               </SheetContent>
